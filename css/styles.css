@@ -1,0 +1,21 @@
+/* Google fonts importation */
+@import url(../css/font.css);
+
+
+/* Variables creation */
+:root {
+  /* Fonts */
+  --Josefin: 'Josefin', Helvetica, Verdana, Arial, sans-serif; 
+  --Lexend: 'Lexend', Helvetica, Verdana, Arial, sans-serif; 
+  --Livvic: 'Livvic', Helvetica, Verdana, Arial, sans-serif; 
+  /* Colors */
+  --blue: #1DA1FF;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
