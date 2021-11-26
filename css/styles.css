@@ -19,3 +19,7 @@ html {
 * {
   box-sizing: inherit;
 }
+
+h1 {
+  color: var(--blue)
+}
