@@ -1,13 +1,17 @@
-/* Google fonts importation */
 @import url(../css/font.css);
 
 
 /* Variables creation */
 :root {
   /* Fonts */
+  --Dosis: 'Dosis', Helvetica, Verdana, Arial, sans-serif; 
   --Josefin: 'Josefin', Helvetica, Verdana, Arial, sans-serif; 
+  --Lato: 'Lato', Helvetica, Verdana, Arial, sans-serif; 
   --Lexend: 'Lexend', Helvetica, Verdana, Arial, sans-serif; 
   --Livvic: 'Livvic', Helvetica, Verdana, Arial, sans-serif; 
+  --Open-sans: 'Open-sans', Helvetica, Verdana, Arial, sans-serif; 
+  --Oswald: 'Oswald', Helvetica, Verdana, Arial, sans-serif; 
+  --Roboto: 'Roboto', Helvetica, Verdana, Arial, sans-serif; 
   /* Colors */
   --blue: #1DA1FF;
 }
@@ -19,6 +23,13 @@ html {
 * {
   box-sizing: inherit;
 }
+
+ body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: var(--Roboto);
+ }
 
 h1 {
   color: var(--blue)
