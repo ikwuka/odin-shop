@@ -14,6 +14,8 @@
   --Roboto: 'Roboto', Helvetica, Verdana, Arial, sans-serif; 
   /* Colors */
   --blue: #1DA1FF;
+  --black: #000000;
+  --white: #FFFFFF;
 }
 
 html {
@@ -24,13 +26,51 @@ html {
   box-sizing: inherit;
 }
 
- body {
+body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   overflow: hidden;
   font-family: var(--Roboto);
- }
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  color: var(--white);
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--black);
+  color: var(--white);
+  font-weight: bold;
+  width: 100%;
+  height: 75px;
+}
+
+.container {
+  flex: 1;
+}
 
 h1 {
-  color: var(--blue)
+  color: var(--blue);
+  text-align: center;
+  padding-top: 20px;
 }
