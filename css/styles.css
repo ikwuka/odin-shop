@@ -53,13 +53,22 @@ li a {
   color: var(--white);
 }
 
-header,
-footer {
+header {
+  font-size: 24px;
+}
+
+header:hover {
+  color: var(--blue);
+}
+
+#header,
+#footer {
   display: flex;
   justify-content: center;
   align-items: center;
   background: var(--black);
   color: var(--white);
+  font-family: var(--Lexend);
   font-weight: bold;
   width: 100%;
   height: 75px;
@@ -67,6 +76,7 @@ footer {
 
 .container {
   flex: 1;
+  font-family: var(--Lexend);
 }
 
 h1 {
