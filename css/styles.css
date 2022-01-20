@@ -26,7 +26,6 @@ body {
 
 * {
   box-sizing: inherit;
-  margin: 0;
 }
 
 body {
@@ -36,7 +35,7 @@ body {
 }
 
 p {
-  margin: .5em 0 .5em 0;
+  margin: 0.5em 0 0.5em 0;
 }
 
 header {
@@ -68,7 +67,6 @@ nav > ul > li {
 
 main {
   display: block;
-  background-image: url(../img/background.png);
   padding-top: 3em;
   padding-bottom: 3em;
   min-height: 85%;
@@ -76,6 +74,11 @@ main {
 
 footer {
   padding: 15px;
+  background-color: #000;
+}
+
+.brand-logo {
+  height: auto;
 }
 
 aside,
@@ -89,4 +92,14 @@ aside {
 
 article {
   width: 75%;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    display: flex;
+  }
+
+  aside {
+    margin-left: 25%;
+  }
 }
