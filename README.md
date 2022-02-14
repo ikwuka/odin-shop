@@ -4,4 +4,6 @@ This is the first project in my repo that integrates the use of HTML, CSS,and Ja
 
 ## Skills To Be Gained
 
-Intermediate HTML, CSS, and JavaScript
+   > Intermediate HTML
+   > CSS
+   > JavaScript
