@@ -75,7 +75,48 @@
         <li><a href="./pages/contact.html">Contact</a></li>
       </ul>
     </nav>
-  </footer>
+    
+  <script>
+    function greet(name) {
+
+      let result = "";
+
+      if ( name === 'Ikwuka' ) {
+        result = 'Hi Ikwuka!';
+      } else if (name === 'Maazi') {
+        result = 'Maazi, is that you?';
+      } else {
+        result = 'Wait, where is Ikwuka?';
+      }
+
+      return result;
+    }
+
+    // greet('Ikwuka');
+    // greet('Maazi');
+    // greet('Ugochukwu');
+
+    let message = greet('Emeka');
+    console.log(message);
+
+    // Object Literal
+
+    let person = {
+      firstName: 'Ikwuka',
+      lastName: 'Okoye',
+      github: '@maaziarinze',
+      salute: function() {
+        console.log('My name is ' + this.firstName)
+      }
+    };
+
+    person.salute();
+
+    // Array
+    
+    let array = [1, 2, 3, 4, 5];
+    console.log(array[0]);
+  </script>
 </body>
 
 </html>
